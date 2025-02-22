@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>AccountFind</title>
+<link rel="stylesheet"href="css/Style.css"/>
+<style>
+	body{
+	
+	font-family: revert;
+    background-color: cornflowerblue;
+    margin: 0;
+    padding: 0;	
+		
+	}
+	form{
+		max-width: 400px;
+    background-color: royalblue;
+    margin: 21px;
+    padding: 37px;
+    border-radius: 95px;
+	}
+	label {
+        display: block;
+        margin-bottom: 10px;
+    }
+    input[type="text"] {
+        width: calc(100% - 22px);
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+</style>
+</head>
+<body>
+	<div class="header">
+	PST-ATM-SERVICE
+	</div>
+	<div class="nav-bar">
+		<ul>
+			<li><a href ="home_navigation.html">Home </a></li>
+			<li><a href ="CreateNewUser.html">CreatNewUser </a></li>
+			<li><a href ="Account_find.html">DepositAmount </a></li>
+			<li><a href ="Find_Account.html">WithDrawalAmount </a></li>
+			<li><a href ="Balance_Enquiry.html">BalanceEnquiry </a></li>
+			<li><a href ="Change_pho.html">ChangeMobileNumber</a></li>
+	   </ul>
+      </div>
+<center><form action="Account_deposit.jsp"method="get">
+	<label>Enter Your AccountNumber</label>
+	<input  type="text" name="account_number"/>
+		<input type="submit" value="Search"/>
+
+	
+</form></center>
+<div class="footer">
+<marquee><center><h3>copy right www.dayasofttech.com @2024</h3></center></marquee>
+</div>
+</body>
+</html>
