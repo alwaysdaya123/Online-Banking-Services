@@ -68,9 +68,6 @@ Deploy the WAR file to Apache Tomcat and start the server.
 5️⃣ Access the application:
 
 Open your browser and go to:
-arduino
-Copy
-Edit
 http://localhost:8080/OnlineBanking
 📸 Screenshots
 🔹 [Add screenshots of login, dashboard, transactions, and fund transfer here]
@@ -84,8 +81,6 @@ http://localhost:8080/OnlineBanking
 🚀 GitHub: alwaysdaya123
 
 🌟 If you find this project useful, don't forget to star ⭐ the repository!
-css
-Copy
-Edit
 
-This `README.md` provides a **clear, structured, and professional** overview of your project, covering all key aspec
+This `README.md` provides a **clear, structured, and professional** overview of your project, covering all key aspects. Let me know if you need any modifications! 🚀
+
